@@ -3,5 +3,5 @@ numpy
 pandas
 redis
 
--e git+ssh://git@git.gem.myengie.com/MC5519/id-access.git@master#egg=id_access
+-e git+ssh://git@10.22.221.21/MC5519/id-access.git@master#egg=id_access
 
