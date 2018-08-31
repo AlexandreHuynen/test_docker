@@ -2,3 +2,6 @@ flask
 numpy
 pandas
 redis
+
+-e git+ssh://git@git.gem.myengie.com/MC5519/id-access.git@master#egg=id_access
+

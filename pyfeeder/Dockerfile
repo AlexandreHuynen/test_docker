@@ -1,5 +1,31 @@
 FROM python:3.6
 
+ARG SSH_PRIVATE_KEY
+ARG GEMS_KEYS
+
+RUN echo "${SSH_PRIVATE_KEY}"
+RUN echo "${GEMS_KEYS}"
+
+
+#########################################################################
+# Install git
+RUN apt-get update
+RUN apt-get install -y git
+
+# Add credentials on build
+ARG SSH_PRIVATE_KEY
+RUN mkdir /root/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
+RUN chmod 600 /root/.ssh/id_rsa
+
+# Make sure the domain is accepted
+RUN touch /root/.ssh/known_hosts
+RUN ssh-keyscan git.gem.myengie.com >> /root/.ssh/known_hosts
+########################################################################
+
+#RUN echo "${GEMS_KEYS}" > /root/GEMS_KEYS.yaml
+RUN echo "${GEMS_KEYS}" > /root/gems_api.yml
+
 ADD . /code
 
 WORKDIR /code

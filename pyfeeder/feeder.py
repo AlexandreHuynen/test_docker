@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import redis
 
+from id_access import Client
+cl = Client()
+
 db = redis.StrictRedis(host='redis', port=6379)
 db.flushdb()
 
@@ -12,8 +15,9 @@ def feed_db(cache):
     while True:
         now = pd.Timestamp.now()
         if now - last >= pd.Timedelta(seconds=3):
-            cache.set(now, np.random.random())
-            # cache.set(now, 10)
+            # what = np.random.random()
+            what = cl.get_orderbook(grids='BE', products='Hour')
+            cache.set(now, what)
             now, last = pd.Timestamp.now(), now
 
 
