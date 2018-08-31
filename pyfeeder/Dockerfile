@@ -3,9 +3,7 @@ FROM python:3.6
 ARG SSH_PRIVATE_KEY
 ARG GEMS_KEYS
 
-RUN echo "${SSH_PRIVATE_KEY}"
-RUN echo "${GEMS_KEYS}"
-
+RUN eval $(ssh-agent -s)
 
 #########################################################################
 # Install git
