@@ -18,7 +18,7 @@ RUN chmod 600 /root/.ssh/id_rsa
 
 # Make sure the domain is accepted
 RUN touch /root/.ssh/known_hosts
-RUN ssh-keyscan -t rsa git.gem.myengie.com >> /root/.ssh/known_hosts
+RUN ssh-keyscan git.gem.myengie.com >> /root/.ssh/known_hosts
 ########################################################################
 
 #RUN echo "${GEMS_KEYS}" > /root/GEMS_KEYS.yaml
