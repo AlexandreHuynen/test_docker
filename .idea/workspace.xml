@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abab3fa0-4cdd-4745-8ea5-c7e499f56f49" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyfeeder/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pyfeeder/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="248" />
+          <entry key="Dockerfile" value="255" />
           <entry key="py" value="84" />
           <entry key="txt" value="81" />
           <entry key="yml" value="139" />
@@ -40,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="248" />
+          <entry key="Dockerfile" value="255" />
           <entry key="PLAIN_TEXT" value="81" />
           <entry key="Python" value="84" />
           <entry key="YAML" value="139" />
@@ -54,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="119" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="119" />
+              <caret line="29" column="119" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -71,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyfeeder/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -368,14 +369,14 @@
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="119" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="119" />
+          <caret line="29" column="119" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyfeeder/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
