@@ -1,10 +1,5 @@
 FROM python:3.6
 
-ARG SSH_PRIVATE_KEY
-ARG GEMS_KEYS
-
-RUN eval $(ssh-agent -s)
-
 #########################################################################
 # Install git
 RUN apt-get update
@@ -21,6 +16,7 @@ RUN touch /root/.ssh/known_hosts
 RUN ssh-keyscan git.gem.myengie.com >> /root/.ssh/known_hosts
 ########################################################################
 
+ARG GEMS_KEYS
 #RUN echo "${GEMS_KEYS}" > /root/GEMS_KEYS.yaml
 RUN echo "${GEMS_KEYS}" > /root/gems_api.yml
 
