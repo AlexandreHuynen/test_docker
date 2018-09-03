@@ -1,6 +1,8 @@
 FROM python:3.6
 
-COPY ../resolv.conf /etc/resolv.conf
+COPY resolv.conf /etc/resolv.conf
+
+RUN cat etc/resolv.comf
 
 #########################################################################
 # Install git
