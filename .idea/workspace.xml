@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abab3fa0-4cdd-4745-8ea5-c7e499f56f49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyfeeder/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pyfeeder/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +37,7 @@
           <entry key="Dockerfile" value="357" />
           <entry key="py" value="84" />
           <entry key="txt" value="81" />
-          <entry key="yml" value="147" />
+          <entry key="yml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -45,18 +45,18 @@
           <entry key="Dockerfile" value="357" />
           <entry key="PLAIN_TEXT" value="81" />
           <entry key="Python" value="84" />
-          <entry key="YAML" value="147" />
+          <entry key="YAML" value="154" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-start-column="1" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyfeeder/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <caret line="13" selection-start-line="13" selection-start-column="1" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/flaskapp/app.py" />
         <option value="$PROJECT_DIR$/pyfeeder/feeder.py" />
         <option value="$PROJECT_DIR$/pyfeeder/requirements.txt" />
-        <option value="$PROJECT_DIR$/pyfeeder/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/pyfeeder/Dockerfile" />
       </list>
     </option>
   </component>
@@ -399,17 +399,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyfeeder/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/pyfeeder/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-start-column="1" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-start-column="1" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>

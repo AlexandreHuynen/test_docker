@@ -11,8 +11,8 @@ RUN mkdir /root/.ssh/
 RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
 RUN chmod 600 /root/.ssh/id_rsa
 
-RUN echo "nameserver 10.22.221.21" >> /etc/resolv.conf
-RUN echo "10.22.221.21  git.gem.myengie.com" >> /etc/hosts
+#RUN echo "nameserver 10.22.160.16" >> /etc/resolv.conf
+#RUN echo "10.22.221.21  git.gem.myengie.com" >> /etc/hosts
 
 
 RUN touch /root/.ssh/known_hosts
