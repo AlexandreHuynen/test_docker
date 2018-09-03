@@ -16,6 +16,7 @@ services:
     depends_on:
       - redis
     restart: always
+    network_mode: "host"
     extra_hosts:
     - "git.gem.myengie.com:10.22.221.21"
 
