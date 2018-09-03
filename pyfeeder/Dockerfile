@@ -12,10 +12,7 @@ RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
 RUN chmod 600 /root/.ssh/id_rsa
 
 # Make sure the domain is accepted
-RUN echo "nameserver 10.22.216.36" > /etc/resolv.conf
-RUN echo "nameserver 10.22.208.36" >> /etc/resolv.conf
-RUN echo "nameserver 168.63.129.16" >> /etc/resolv.conf
-RUN echo "10.22.221.21  git.gem.myengie.com" >> /etc/hosts
+#RUN echo "10.22.221.21  git.gem.myengie.com" >> /etc/hosts
 
 RUN touch /root/.ssh/known_hosts
 RUN ssh-keyscan git.gem.myengie.com >> /root/.ssh/known_hosts

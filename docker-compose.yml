@@ -16,6 +16,8 @@ services:
     depends_on:
       - redis
     restart: always
+    extra_hosts:
+    - "git.gem.myengie.com:10.22.221.21"
 
   redis:
     image: redis
