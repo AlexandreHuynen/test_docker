@@ -13,8 +13,8 @@ services:
 
   feeder:
     build: ./pyfeeder
-    extra_hosts:
-      - "git.gem.myengie.com:10.22.221.21"
+#    extra_hosts:
+#      - "git.gem.myengie.com:10.22.221.21"
     depends_on:
       - redis
     restart: always
