@@ -13,9 +13,8 @@ services:
 
   feeder:
     build: ./pyfeeder
-#    extra_hosts:
-#      - "git.gem.myengie.com:10.22.221.21"
-    dns: 10.22.160.16
+    volumes:
+      - ./resolv.conf:/etc/redis.conf
     depends_on:
       - redis
     restart: always
