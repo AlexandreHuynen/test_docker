@@ -1,5 +1,7 @@
 FROM python:3.6
 
+COPY ../resolv.conf /etc/resolv.conf
+
 #########################################################################
 # Install git
 RUN apt-get update

@@ -13,8 +13,6 @@ services:
 
   feeder:
     build: ./pyfeeder
-    volumes:
-      - ./resolv.conf:/etc/resolv.conf
     depends_on:
       - redis
     restart: always
